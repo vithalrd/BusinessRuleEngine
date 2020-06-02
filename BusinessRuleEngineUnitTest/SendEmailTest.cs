@@ -19,7 +19,7 @@ namespace BusinessRuleEngineUnitTest
             };
 
             EmailService emailService = new EmailService(paymentDetailsDto);
-            string packingSlipResult = emailService.DoProcess();
+            string emailServiceResult = emailService.DoProcess();
             Assert.IsNotNull(emailService);
         }
     }
