@@ -18,7 +18,7 @@ namespace BusinessRuleEngineUnitTest
                 CustomerName = "Vithal Deshpande"
             };
 
-            EmailService emailService = new EmailService(paymentDetailsDto);
+            IAction emailService = new EmailService(paymentDetailsDto);
             string emailServiceResult = emailService.DoProcess();
             Assert.IsNotNull(emailService);
         }

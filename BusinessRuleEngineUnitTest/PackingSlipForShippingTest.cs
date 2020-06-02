@@ -19,7 +19,7 @@ namespace BusinessRuleEngineUnitTest
                 ProductId = 1
             };
 
-            PackingSlipForShipping packingSlip = new PackingSlipForShipping(paymentDetailsDto);
+            IAction packingSlip = new PackingSlipForShipping(paymentDetailsDto);
             string result = packingSlip.DoProcess();
             Assert.IsNotNull(result);
         }
@@ -40,7 +40,7 @@ namespace BusinessRuleEngineUnitTest
                 AgentName = "John Miller"
             };
 
-            CommissionPayment commissionPayment = new CommissionPayment(paymentDetailsDto);
+            IAction commissionPayment = new CommissionPayment(paymentDetailsDto);
             string result = commissionPayment.DoProcess();
             Assert.IsNotNull(result);
         }
@@ -61,11 +61,11 @@ namespace BusinessRuleEngineUnitTest
                 AgentName = "John Miller"
             };
 
-            PackingSlipForShipping packingSlip = new PackingSlipForShipping(paymentDetailsDto);
+            IAction packingSlip = new PackingSlipForShipping(paymentDetailsDto);
             string packingSlipResult = packingSlip.DoProcess();
             Assert.IsNotNull(packingSlipResult);
 
-            CommissionPayment commissionPayment = new CommissionPayment(paymentDetailsDto);
+            IAction commissionPayment = new CommissionPayment(paymentDetailsDto);
             string commissionPaymentResult = commissionPayment.DoProcess();
             Assert.IsNotNull(commissionPaymentResult);
         }

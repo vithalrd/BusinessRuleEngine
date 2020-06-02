@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngine
 {
-    public class ActivateMemberShip
+    public class ActivateMemberShip : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
         public ActivateMemberShip(PaymentDetailsDto paymentDetailsDto)

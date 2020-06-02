@@ -9,7 +9,7 @@ namespace BusinessRuleEngine
     /// <summary>
     /// Process the payment and geneated packing slip for shipping
     /// </summary>
-    public class PackingSlipForShipping 
+    public class PackingSlipForShipping : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
 

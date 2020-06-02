@@ -18,7 +18,7 @@ namespace BusinessRuleEngineUnitTest
                MembershipName = "Prime Membership"
             };
 
-            ActivateMemberShip activateMemberShip = new ActivateMemberShip(paymentDetailsDto);
+            IAction activateMemberShip = new ActivateMemberShip(paymentDetailsDto);
             string result = activateMemberShip.DoProcess();
             Assert.IsNotNull(result);
         }
@@ -34,7 +34,7 @@ namespace BusinessRuleEngineUnitTest
                 MembershipName = "Prime Membership"
             };
 
-            UpgradeMemberShip upgradeMemberShip = new UpgradeMemberShip(paymentDetailsDto);
+            IAction upgradeMemberShip = new UpgradeMemberShip(paymentDetailsDto);
             string result = upgradeMemberShip.DoProcess();
             Assert.IsNotNull(result);
         }
@@ -56,11 +56,11 @@ namespace BusinessRuleEngineUnitTest
                 CustomerName = "Vithal Deshpande"
             };
 
-            ActivateMemberShip activateMemberShip = new ActivateMemberShip(paymentDetailsDto);
+            IAction activateMemberShip = new ActivateMemberShip(paymentDetailsDto);
             string result = activateMemberShip.DoProcess();
             Assert.IsNotNull(result);
 
-            EmailService emailService = new EmailService(paymentDetailsDto);
+            IAction emailService = new EmailService(paymentDetailsDto);
             string emailServiceResult = emailService.DoProcess();
             Assert.IsNotNull(emailServiceResult);
         }
@@ -80,11 +80,11 @@ namespace BusinessRuleEngineUnitTest
                 CustomerId = 120,
                 CustomerName = "Vithal Deshpande"
             };
-            UpgradeMemberShip upgradeMemberShip = new UpgradeMemberShip(paymentDetailsDto);
+            IAction upgradeMemberShip = new UpgradeMemberShip(paymentDetailsDto);
             string result = upgradeMemberShip.DoProcess();
             Assert.IsNotNull(result);
 
-            EmailService emailService = new EmailService(paymentDetailsDto);
+            IAction emailService = new EmailService(paymentDetailsDto);
             string emailServiceResult = emailService.DoProcess();
             Assert.IsNotNull(emailServiceResult);
         }

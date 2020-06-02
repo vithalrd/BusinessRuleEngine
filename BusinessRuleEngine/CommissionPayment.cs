@@ -9,7 +9,7 @@ namespace BusinessRuleEngine
     /// <summary>
     /// Generate commission payment for Agent
     /// </summary>
-    public class CommissionPayment 
+    public class CommissionPayment : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
 

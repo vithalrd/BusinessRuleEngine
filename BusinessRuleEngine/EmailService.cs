@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngine
 {
-    public class EmailService 
+    public class EmailService : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
 
