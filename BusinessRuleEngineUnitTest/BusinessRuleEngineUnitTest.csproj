@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="PackingSlipForShippingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MembershipTest.cs" />
+    <Compile Include="SendEmailTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

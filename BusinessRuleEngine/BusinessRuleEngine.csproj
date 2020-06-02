@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivateMemberShip.cs" />
     <Compile Include="CommissionPayment.cs" />
+    <Compile Include="EmailService.cs" />
     <Compile Include="PackingSlipForShipping.cs" />
     <Compile Include="ProductDto.cs" />
     <Compile Include="ProductEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpgradeMemberShip.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

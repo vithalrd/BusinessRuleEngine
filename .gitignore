@@ -6,3 +6,5 @@
 /BusinessRuleEngineUnitTest
 /.vs/BusinessRuleEngine/v15/Server/sqlite3
 /BusinessRuleEngine/bin/Debug
+/BusinessRuleEngine/UpgradeMemberShip.cs
+/BusinessRuleEngine/ActivateMemberShip.cs
