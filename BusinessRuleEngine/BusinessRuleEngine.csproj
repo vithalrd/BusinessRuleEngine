@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommissionPayment.cs" />
+    <Compile Include="PackingSlipForShipping.cs" />
     <Compile Include="ProductDto.cs" />
     <Compile Include="ProductEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
