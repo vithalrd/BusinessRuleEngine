@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PackingSlipForRoyaltyTest.cs" />
     <Compile Include="PackingSlipForShippingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MembershipTest.cs" />

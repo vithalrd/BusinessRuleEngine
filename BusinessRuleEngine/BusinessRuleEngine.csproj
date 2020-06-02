@@ -45,6 +45,7 @@
     <Compile Include="CommissionPayment.cs" />
     <Compile Include="EmailService.cs" />
     <Compile Include="IAction.cs" />
+    <Compile Include="PackingSlipForRoyalty.cs" />
     <Compile Include="PackingSlipForShipping.cs" />
     <Compile Include="ProductDto.cs" />
     <Compile Include="ProductEnum.cs" />
