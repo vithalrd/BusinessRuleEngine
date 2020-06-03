@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngine
 {
-    public class ActivateMemberShip : IAction
+    /// <summary>
+    /// Membership activate action
+    /// </summary>
+    public class MemberShipActivation : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
-        public ActivateMemberShip(PaymentDetailsDto paymentDetailsDto)
+        public MemberShipActivation(PaymentDetailsDto paymentDetailsDto)
         {
             this.paymentDetailsDto = paymentDetailsDto;
         }

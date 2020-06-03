@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngine
 {
-    public class UpgradeMemberShip : IAction
+    /// <summary>
+    /// Membership upgrade action
+    /// </summary>
+    public class MemberShipUpgradation : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
 
-        public UpgradeMemberShip(PaymentDetailsDto paymentDetailsDto)
+        public MemberShipUpgradation(PaymentDetailsDto paymentDetailsDto)
         {
             this.paymentDetailsDto = paymentDetailsDto;
         }

@@ -18,7 +18,7 @@ namespace BusinessRuleEngineUnitTest
                MembershipName = "Prime Membership"
             };
 
-            IAction activateMemberShip = new ActivateMemberShip(paymentDetailsDto);
+            IAction activateMemberShip = new MemberShipActivation(paymentDetailsDto);
             string result = activateMemberShip.DoProcess();
             Assert.IsNotNull(result);
         }
@@ -34,7 +34,7 @@ namespace BusinessRuleEngineUnitTest
                 MembershipName = "Prime Membership"
             };
 
-            IAction upgradeMemberShip = new UpgradeMemberShip(paymentDetailsDto);
+            IAction upgradeMemberShip = new MemberShipUpgradation(paymentDetailsDto);
             string result = upgradeMemberShip.DoProcess();
             Assert.IsNotNull(result);
         }
@@ -56,7 +56,7 @@ namespace BusinessRuleEngineUnitTest
                 CustomerName = "Vithal Deshpande"
             };
 
-            IAction activateMemberShip = new ActivateMemberShip(paymentDetailsDto);
+            IAction activateMemberShip = new MemberShipActivation(paymentDetailsDto);
             string result = activateMemberShip.DoProcess();
             Assert.IsNotNull(result);
 
@@ -80,7 +80,7 @@ namespace BusinessRuleEngineUnitTest
                 CustomerId = 120,
                 CustomerName = "Vithal Deshpande"
             };
-            IAction upgradeMemberShip = new UpgradeMemberShip(paymentDetailsDto);
+            IAction upgradeMemberShip = new MemberShipUpgradation(paymentDetailsDto);
             string result = upgradeMemberShip.DoProcess();
             Assert.IsNotNull(result);
 
