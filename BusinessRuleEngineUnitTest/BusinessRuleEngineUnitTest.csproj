@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionFactoryTest.cs" />
+    <Compile Include="VideoPaymentTest.cs" />
     <Compile Include="PackingSlipForRoyaltyTest.cs" />
     <Compile Include="PackingSlipForShippingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

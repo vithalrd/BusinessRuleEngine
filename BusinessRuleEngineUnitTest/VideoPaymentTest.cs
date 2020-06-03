@@ -12,9 +12,9 @@ namespace BusinessRuleEngineUnitTest
         {
             PaymentDetailsDto paymentDetailsDto = new PaymentDetailsDto();
             paymentDetailsDto.ProductType = ProductEnum.Video;
+            paymentDetailsDto.ProductDto = new ProductDto();
             paymentDetailsDto.ProductDto.ProductId = 101;
             paymentDetailsDto.ProductDto.Price = 200;
-
 
             IAction videoPayment = new Video(paymentDetailsDto);
             string result = videoPayment.DoProcess();
