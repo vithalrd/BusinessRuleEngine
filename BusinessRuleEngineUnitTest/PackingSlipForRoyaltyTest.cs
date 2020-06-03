@@ -12,7 +12,7 @@ namespace BusinessRuleEngineUnitTest
         public void GeneratePackingSlipForRoyalty_Test()
         {
             PaymentDetailsDto paymentDetailsDto = new PaymentDetailsDto();
-            paymentDetailsDto.ProductType = ProductEnum.PhysicalProduct;
+            paymentDetailsDto.ProductType = ProductEnum.Book;
             paymentDetailsDto.ProductDto = new ProductDto
             {
                 Price = 1200,

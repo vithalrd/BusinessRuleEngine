@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleEngine", "Busin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleEngineUnitTest", "BusinessRuleEngineUnitTest\BusinessRuleEngineUnitTest.csproj", "{4418C899-D912-41CA-BF7A-4B762FAC4876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleEngineClient", "BusinessRuleEngineClient\BusinessRuleEngineClient.csproj", "{07DFC04E-515D-4891-85F2-1341B2A43ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4418C899-D912-41CA-BF7A-4B762FAC4876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4418C899-D912-41CA-BF7A-4B762FAC4876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4418C899-D912-41CA-BF7A-4B762FAC4876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DFC04E-515D-4891-85F2-1341B2A43ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DFC04E-515D-4891-85F2-1341B2A43ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DFC04E-515D-4891-85F2-1341B2A43ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DFC04E-515D-4891-85F2-1341B2A43ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
