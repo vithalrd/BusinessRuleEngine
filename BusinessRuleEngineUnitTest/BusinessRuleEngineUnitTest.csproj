@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionFactoryTest.cs" />
+    <Compile Include="PaymentProcessIntegrationTest.cs" />
     <Compile Include="VideoPaymentTest.cs" />
     <Compile Include="PackingSlipForRoyaltyTest.cs" />
     <Compile Include="PackingSlipForShippingTest.cs" />
