@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngine
 {
+    /// <summary>
+    /// Generating packing slip for Royalty Department
+    /// </summary>
     public class PackingSlipForRoyalty : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;

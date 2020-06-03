@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngine
 {
+    /// <summary>
+    /// Action to be executed after payment on video
+    /// </summary>
     public class Video : IAction
     {
         private PaymentDetailsDto paymentDetailsDto;
